@@ -1,13 +1,9 @@
 <template>
-  <section id="BlogPage">
+  <section id="Page">
     <h1 class="heading-text">Welcome</h1>
     <div class="parent-container">
       <div class="Card-body">
-        <Content
-          title="Introduction to CSS"
-          content="CSS is a stylesheet language used to style the structure of our document"
-          @displayData="fetchData($event)"
-        />
+     
       </div>
       <div class="Card-body">
         <Content
@@ -18,7 +14,7 @@
       </div>
       <div class="Card-body">
         <Content
-          title="Understanding Currying"
+          title="Currying"
           content="Currying simply means evaluating functions with multiple arguments"
           @displayData="fetchData($event)"
         />
