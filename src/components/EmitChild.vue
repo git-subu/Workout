@@ -30,7 +30,7 @@
  
 </template>
 <script>
-import Content from "../components/Content.vue";
+import Content from "../components/EmitParent.vue";
 export default {
   name: "BlogPage",
   components: {
